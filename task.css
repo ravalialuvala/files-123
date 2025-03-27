@@ -1,0 +1,475 @@
+body {
+    color: #333;
+}
+.heading {
+    background-color: #fff;
+}
+.heading img {
+    width: 180px;
+}
+.main {
+    background-image: url("../assets/images/truckimg.png");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 450px;
+    /* display: flex; */
+    align-items: flex-end;
+    justify-content: right;
+    position: relative;
+  }
+  .main::after {
+    position: absolute;
+    content: "";
+    background-color: rgba(0, 0, 0, 0.5);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0 ;
+  }
+.main>p {
+    background-color: rgb(17, 17, 17, 0.7);
+    padding: 0px;
+    color: white;
+  }
+.col-inner{
+    box-sizing: border-box;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 100%;
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.icon-title{
+    padding-bottom: 50px;
+    color: black;
+}
+.icon-title p {
+    font-size: 16px;
+    font-style: italic;
+    position: relative;
+    color: black;
+}
+.content{
+    margin-bottom: 0 !important;
+}
+/* .row{
+    margin-right: -15px;
+    margin-left: -15px;
+    margin-top: 20px;
+} */
+.preview {
+    width: 50%;
+}
+.icon-box {
+    background: #233859;
+    color: #fff;
+    text-align: center;
+}
+.icon-box span {
+    font-size: 40px;
+    line-height: 65px;
+}
+.icon-content {
+    color: #323232;
+    font-size: 14px;
+    float: left;
+    width: 75%;
+    padding: 5px 5px 5px 15px;
+    box-sizing: border-box;
+}
+.increment {
+    background-color: yellow;
+}
+.heading-content {
+    opacity: 1;
+    font-weight: 600;
+    font-size: 14px;
+    width: 51%;
+}
+.company {
+    bottom: 0;
+    left: 0;
+    padding: 60px 0;
+    right: 0;
+    background-image: url(../assets/images/bgpic.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.company::after {
+    position: absolute;
+    content: "";
+    background-color: rgba(0, 0, 0, 0.3);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+.provide-data {
+    position: relative;
+    z-index: 1;
+}
+.heading-content {
+    color: #fff;
+}
+.provide-button {
+    display: inline-block;
+    padding-right: 50px;
+}
+.btn {
+    color: #fff;
+}
+.btn-primary {
+    background-color: #233859;
+    color: #fff;
+    border-color: #233859;
+    border-radius: 4px;
+    text-transform: none;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 15px 60px 15px 20px;
+}
+.btn-secondary {
+    background-color: #233859;
+    color: #fff;
+    border-color: #233859;
+    border-radius: 4px;
+    text-transform: none;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 15px 60px 15px 20px;
+}
+.ip-heading {
+    display: table;
+    margin: 0 auto;
+    text-align: center;
+}
+.ip-heading h4 {
+    position: relative;
+}
+.ip-heading h4::after {
+    position: absolute;
+    content: "";
+    background-color: gray;
+    bottom: 0;
+    width: 100%;
+    bottom: -8px;
+    height: 2px;
+    margin: auto;
+    left: 0;
+}
+.people img {
+    height: 250px;
+}
+.people-content p{
+    margin-top: 20px;
+    color: #a7a6a6;
+    position: relative;
+    line-height: 2;
+    font-size: 15px;
+}
+.people-content {
+    padding-left: 20px;
+}
+.people a{
+    padding-right: 15px;
+    color: #323232;
+    text-decoration: none;
+}
+.benefit-icon {
+    padding: 10px 15px;
+    background: #233859;
+    color: #fff;
+    border: 1px solid #233859;
+    float: left;
+    width: 80px;
+    height: 80px;
+}
+.benefit-icon:hover {
+    background-color: yellow;
+}
+.block-image { 
+    padding: 0;
+    border-bottom: none;
+    width: 100%;
+}
+.block-image img {
+    max-width: 100%;
+    height: auto;
+    border: none;
+}
+.block-header h5{
+    padding: 0;
+    margin-top: 25px;
+    position: relative;
+    font-size: 20px;
+}
+.meta {
+    padding-right: 10px;
+    padding-left: 10px;
+    color: #c1c1c1;
+    position: relative;
+}
+.meta .fa {
+    padding-right: 5px;
+    color: #233859;
+}
+.mt-30 {
+    margin-top: 30px;
+}
+.no-margin {
+    margin-left: 0;
+    margin-right: 0;
+}
+.img-full {
+    width: 100%;
+}
+.news-heading {
+    border-bottom: 1px solid #333;
+}
+.news-heading span {
+    color: yellow;
+}
+.footer {
+    background-color: #233859;
+}
+.footer-data {
+    color: #fff;
+}
+.footerinfo .menu .menu-title ul li{
+    border-bottom: none;
+    margin-bottom: 14px;
+    padding: 0;
+    padding-left: 5px;
+    color: #fff;
+}
+.mt-60 {
+    margin-top: 60px;
+}
+.main {
+    position: relative;
+}
+.main-title {
+    top: 25%;
+    right: 25%;
+    left: 45%;
+    position: absolute;
+    z-index: 1;
+}
+.main-title p {
+    font-size: 40px;
+    color: #fff;
+}
+.info {
+    font-weight: 700;
+    color: hotpink;
+    font-size: 15px;
+}
+.copyrights {
+    background-color: #1c304e;
+}
+.copyright-content {
+    font-size: 15px;
+    color: #fff;
+}
+.copyright-content ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 10px;
+}
+.icon-content .data {
+    font-size: 16px;
+}
+.count-content span {
+    font-size: 40px;
+}
+.list ul li {
+    list-style: none;
+}
+.symbol a {
+    text-decoration: none;
+    color: white;
+    padding-left: 20px;
+}
+.menu-content ul li i {
+    margin-right: 10px;
+    color: yellow;
+}
+.menu-content i {
+    margin-bottom: 10px;
+}
+.menu-content ul li {
+    list-style: none;
+}
+.menu-content ul {
+    padding-left: 0;
+}
+.list ul li i{
+    margin-right: 10px;
+    color: yellow;
+}
+.list i {
+    margin-bottom: 10px;
+}
+.symbol a:nth-child(2) {
+    color: yellow;
+}
+.people-content {
+    position: relative;
+    border-left: 2px solid #ccc;
+    margin-top: 10px;
+}
+.people-content::after {
+    position: absolute;
+    background-color: yellow;
+    height: 50px;
+    width: 2px;
+    top: 0;
+    left: -2px;
+    content: "";
+    z-index: 1;
+}
+.ml-auto {
+    margin-left: auto;
+}
+.nav-link {
+    color: black;
+    font-weight: 500;
+}
+.nav-link:hover {
+    background-color: yellow;
+}
+.nav-item a{
+    text-decoration: none;
+    
+}
+.nav-item:hover {
+    background-color: yellow;
+}
+.entry-description p {
+    color: gray;
+}
+.strength span {
+    color: #fff;
+}
+.control-bar .buttons .prev span {
+    display: block;
+    padding-top: 12px;
+    font-size: 18px;
+    color: black;
+}
+.control-bar .buttons .next span {
+    display: block;
+    padding-top: 12px;
+    font-size: 18px;
+    color: black;
+}
+.mr-20 {
+    margin-right: 20px;
+}
+.banner-icon {
+    position: relative;
+    transform: translateY(-70px);
+}
+.service-icon {
+    background: #fff;
+    color: #233859;
+    text-align: center;
+    border: 1px solid #ccc;
+    padding: 30px;
+}
+.service-icon i {
+    font-size: 40px;
+}
+.service-icon a{
+display: block;
+color: #233859;
+text-decoration: none;
+font-size: 18px;
+font-weight: 600;
+margin-top: 10px;
+}
+.no-pad {
+    padding-left: 0;
+    padding-right: 0;
+}
+.carousel-control-prev {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    background-image: none;
+}
+.question-icon {
+    background-color: #fff;
+    height: 40px;
+    width: 40px;
+    border: 1px solid #a7a6a6;
+    color: black;
+    text-align: center;
+    line-height: 40px;
+    margin-right: 10px;
+}
+.question-content {
+    padding-left: 50px;
+}
+.accordion-button {
+    color: black;
+}
+.accordion-button:not(.collapsed) {
+    color: black;
+}
+.question-item {
+    position: relative;
+}
+.question-item::before {
+    position: absolute;
+    content: "";
+    border-left: 1px dashed #333;
+    width: 1px;
+    height: 100%;
+    z-index: 0;
+    left: 38px;
+}
+.question-icon:hover {
+    background-color: #233859;
+    color: yellow;
+}
+.btn-primary:hover, .btn-secondary:hover {
+    background-color: yellow;
+}
+.accordion-button:not(.collapsed) {
+    color: #233859;
+    background-color: transparent;
+    box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0);
+}
+.accordion-button:not(.collapsed) .question-icon{
+    background-color: #233859;
+    color: yellow;
+}
+.accordion-button::after {
+    display: none;
+}
+.news-heading .carousel-control-prev span, .news-heading .carousel-control-next span{
+    color: #333!important;
+}
+.carousel-control-prev {
+    right: 58px;
+    left: auto;
+    background-color: #ccc;
+    line-height: 33px;
+    border-radius: 5px;
+}
+.carousel-control-next {
+    background-color: #ccc;
+    line-height: 33px;
+    border-radius: 5px;
+}

@@ -1,0 +1,531 @@
+.logo img {
+    width: 200px;
+    background-color: #fff;
+}
+
+.items {
+    background-color: black;
+}
+
+.main img {
+    background-repeat: no-repeat;
+    width: 100%;
+    background-position: center;
+    height: 450px;
+    position: relative;
+}
+
+.quote {
+    background-color: rgb(218, 218, 7);
+    padding: 20px;
+}
+
+.quote-data i {
+    color: black;
+    margin-left: 20px;
+    font-size: 30px;
+}
+
+.mt-30 {
+    margin-top: 30px;
+}
+
+.people-content {
+    padding-top: 20px;
+}
+
+.people-content p {
+    padding-top: 10px;
+    text-align: justify;
+}
+
+.people-img {
+    height: 278px;
+}
+
+.people-content ul li {
+    display: flex;
+}
+
+.icon {
+    font-size: 18px;
+}
+
+.icon span {
+    padding-right: 18px;
+    color: yellow;
+}
+
+.features {
+    background-color: #353535;
+    padding: 50px;
+}
+
+.feature-heading {
+    color: #fff;
+}
+
+.features a {
+    color: #fff;
+}
+
+.feature-data ul li {
+    display: inline-block;
+    padding-right: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.feature-data ul li a {
+    color: gray;
+    padding: 15px;
+    border: 2px solid #353535;
+}
+
+.feature-data ul li a.active,
+.feature-data ul li a:hover {
+    border: 2px solid;
+    background-color: #233859;
+    border-color: #233859;
+}
+
+.feature-data ul li a:hover {
+    color: yellow;
+}
+
+.feature-data {
+    padding-top: 10px;
+}
+
+.menu ul li a {
+    color: #fff;
+    margin-right: 20px;
+}
+
+.nav-item {
+    color: #fff;
+}
+.navbar-expand-lg .navbar-nav {
+    flex-direction: row;
+    width: auto;
+}
+
+.mr-20 {
+    margin-right: 20px;
+}
+
+.ml-20 {
+    margin-left: 40px;
+}
+
+.phone,
+.phone a {
+    color: #fff;
+}
+
+.phone {
+    margin-left: 250px;
+}
+.phone p {
+    color: gray;
+}
+
+.menu,
+#navbarSupportedContent,
+.navbar-nav {
+    width: 100%;
+}
+
+ul li {
+    list-style: none;
+}
+
+.carousel-control-prev-icon {
+    border: 2px solid;
+    height: 30px;
+    width: 30px;
+    border-color: #fff;
+    color: #fff;
+}
+
+.carousel-control-next-icon {
+    border: 2px solid;
+    height: 30px;
+    width: 30px;
+    border-color: #fff;
+    color: #fff;
+}
+
+.pictures {
+    background-color: #353535;
+}
+
+.carousel-control-prev {
+    width: 30px;
+}
+
+.carousel-control-next {
+    width: 30px;
+}
+
+.certifications span {
+    font-size: 75px;
+    color: rgb(218, 218, 7);
+}
+
+.certifications {
+    background-color: #eee;
+}
+
+.certifications h5 p {
+    margin-top: 30px;
+}
+
+.certification-data h5::before {
+    content: "";
+    border-bottom: 4px solid gray;
+    height: 30px;
+    width: 100px;
+    z-index: 3;
+    position: absolute;
+    margin-top: 10px;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+.test {
+    margin-top: 90px;
+}
+
+.test p {
+    margin-top: 50px;
+}
+
+.left {
+    border-bottom: 50px solid gray;
+    border-left: 50px solid transparent;
+}
+
+.mt-40 {
+    margin-top: 40px;
+}
+.leading {
+    position: relative;
+    z-index: 1;
+}
+.leading h4 {
+    color: #fff;
+}
+.leading img {
+    background-repeat: no-repeat;
+    width: 100%;
+    background-position: center;
+    height: 500px;
+    position: relative;
+}
+
+.testmonials-panel {
+    background-color: #eee;
+    position: relative;
+}
+
+.testmonials-panel::after {
+    content: "";
+    border-top: 20px solid gray;
+    border-left: 30px solid transparent;
+    border-bottom: 10px solid transparent;
+    bottom: -30px;
+    position: absolute;
+    z-index: 3;
+}
+
+.client-logos img {
+    width: 100%;
+    height: 100px;
+    border: 1px solid #c1c1c1;
+    padding: 15px;
+}
+
+.client-logos {
+    margin-left: 20px;
+}
+
+.lead-data h4 {
+    display: inline-block;
+    color: #fff;
+}
+
+.lead-data span {
+    font-size: 30px;
+    /* text-shadow: 2px 2px #fff; */
+}
+
+.lead-data i {
+    color: rgb(218, 218, 7);
+}
+
+.company-leads {
+    background-image: url(../assets/images/construction2.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    height: 450px;
+    position: relative;
+}
+
+.main-info {
+    background-image: url(../assets/images/buldingbg.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    height: 600px;
+    position: relative;
+}
+
+.banner-title-main {
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    transform: translateX(-50%);
+}
+
+.banner-title p {
+    font-size: 30px;
+    font-weight: bold;
+    text-shadow: 2px 2px #fff;
+}
+
+.banner-title {
+    position: relative;
+    border-left: 2px solid #ccc;
+    margin-top: 10px;
+}
+
+.banner-title::after {
+    position: absolute;
+    background-color: rgb(218, 218, 7);
+    height: 75px;
+    width: 10px;
+    top: 0;
+    right: -20px;
+    content: "";
+    z-index: 1;
+}
+
+.banner-sub-title span {
+    text-align: right;
+    display: block;
+}
+
+.banner-sub-title .first-child {
+    font-weight: bold;
+}
+
+.news-heading {
+    margin-top: 50px;
+}
+.more-data .btn{
+     font-weight: 400;
+}
+
+.construction img {
+    height: 280px;
+}
+
+.news-info p {
+    margin-top: 20px;
+}
+
+.news-info p::before {
+    content: "";
+    border-bottom: 4px solid rgb(218, 218, 7);
+    width: 100px;
+    z-index: 3;
+    position: absolute;
+    margin-top: -10px;
+}
+
+.more p {
+    border: 2px solid;
+    width: 200px;
+    padding: 10px;
+    border-color: rgb(218, 218, 7);
+    padding-left: 40px;
+    background-color: rgb(218, 218, 7);
+}
+.footer {
+    background-color: #4f4c4c;
+}
+
+.footer-data {
+    color: #fff;
+}
+
+.copyrights {
+    background-color: #3f3c3c;
+    padding: 10px;
+}
+
+.copyright-content {
+    font-size: 15px;
+    color: #b4b4b4;
+}
+
+.best-menu a {
+    text-decoration: underline;
+    display: block;
+    padding-bottom: 10px;
+    color: rgb(183, 181, 181);
+}
+.best-menu ul li span {
+    color: rgb(177, 177, 177);
+}
+
+.best-menu ul li i {
+    font-size: 20px;
+    margin-right: 10px;
+    padding-top: 15px;
+    color: rgb(177, 177, 177);
+}
+.textwidget p {
+    color: rgb(223, 220, 220);
+}
+.symbol a {
+    font-size: 25px;
+    margin-right: 10px;
+}
+
+.textwidget a {
+    color: gray;
+}
+
+.special {
+    height: 270px;
+    width: 420px;
+}
+
+.textwidget h5::before {
+    content: "";
+    border-bottom: 4px solid rgb(218, 218, 7);
+    width: 70px;
+    z-index: 3;
+    position: absolute;
+    margin-top: -20px;
+}
+
+.menu-title h5::before {
+    content: "";
+    border-bottom: 4px solid rgb(218, 218, 7);
+    width: 70px;
+    z-index: 3;
+    position: absolute;
+    margin-top: -20px;
+}
+.info {
+    display: flex;
+}
+
+.info i {
+    font-size: 30px;
+    padding-right: 15px;
+    color: rgb(218, 218, 7)
+}
+
+.info span {
+    font-weight: bold;
+}
+
+.news-heading h2::before {
+    content: "";
+    border-bottom: 4px solid rgb(218, 218, 7);
+    width: 100px;
+    z-index: 3;
+    position: absolute;
+    margin-top: -15px;
+}
+
+.test h2::before {
+    content: "";
+    border-bottom: 4px solid rgb(218, 218, 7);
+    width: 100px;
+    z-index: 3;
+    position: absolute;
+    margin-top: -15px;
+}
+
+.feature-heading h2::before {
+    content: "";
+    border-bottom: 4px solid rgb(218, 218, 7);
+    width: 100px;
+    z-index: 3;
+    position: absolute;
+    margin-top: -15px;
+}
+
+.leading span h4::before {
+    content: "";
+    border-bottom: 4px solid rgb(218, 218, 7);
+    width: 100px;
+    z-index: 3;
+    position: absolute;
+    margin-top: -15px;
+}
+
+.company h2::before {
+    content: "";
+    border-bottom: 4px solid rgb(218, 218, 7);
+    width: 100px;
+    z-index: 3;
+    position: absolute;
+    margin-top: -15px;
+}
+
+.main-info {
+    position: relative;
+}
+
+.main-info::after {
+    position: absolute;
+    content: "";
+    background-color: rgba(72, 71, 71, 0.2);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.company-leads {
+    position: relative;
+}
+.company-leads::after {
+    position: absolute;
+    content: "";
+    background-color: rgba(0, 0, 0, 0.5);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+.lead-data .name {
+    color: #fff;
+    padding: 0px;
+    font-size: 20px;
+
+}
+.image-data {
+    height: 280px;
+    width: 420px;
+}
+.social-icon span {
+    margin-right: 10px;
+    font-size: 20px;
+}
+.info p {
+    color: gray;
+}
